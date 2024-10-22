@@ -3,7 +3,7 @@ using System.Text.Json;
 
 internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
         Console.WriteLine("Press 1 to add a product");
         Console.WriteLine("Type 'exit' to quit");
