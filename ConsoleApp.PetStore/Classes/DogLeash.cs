@@ -9,6 +9,6 @@ namespace ConsoleApp.PetStore.Classes
     internal class DogLeash
     {
         public int LengthInches { get; set; }
-        public string Material {  get; set; }
+        public string? Material {  get; set; }
     }
 }
