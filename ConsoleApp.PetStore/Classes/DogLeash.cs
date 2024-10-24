@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ConsoleApp.PetStore.Classes;
 
-namespace ConsoleApp.PetStore.Classes
+public class DogLeash : Product
 {
-    internal class DogLeash
-    {
-        public int LengthInches { get; set; }
-        public string? Material {  get; set; }
-    }
+    public int LengthInches { get; set; }
+    public string? Material { get; set; }
 }

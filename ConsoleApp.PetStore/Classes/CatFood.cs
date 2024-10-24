@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ConsoleApp.PetStore.Classes;
 
-namespace ConsoleApp.PetStore.Classes
+public class CatFood : Product
 {
-    internal class CatFood
-    {
-        public double WeightPounds { get; set; }
-        public bool KittenFood { get; set; }
-    }
+    public double WeightPounds { get; set; }
+    public bool KittenFood { get; set; }
 }
